@@ -1,0 +1,14 @@
+{
+  "name": "course-registration",
+  "version": "1.0.0",
+  "description": "Course registration form with Express backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Ankita",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
