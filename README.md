@@ -14,44 +14,51 @@ A full-stack web application that allows users to submit form data through a cle
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Node.js, Express.js
-- **Styling**: Custom CSS
+- **Styling**: Tailwind CSS
 - **Environment Management**: `.env` file for configuration
 - **Hosting**: GitHub Pages 
 
 ---
 
 ## 📁 Project Structure
-BACKEND-FORM/ 
-├── node_modules/ # Installed dependencies
-├── .env # Environment variables (not pushed to GitHub)
-├── index.html # Main frontend HTML file
-├── style.css # CSS styling for the form
-├── script.js # JavaScript for frontend interactivity
-├── server.js # Express server handling form submissions
-├── package.json # Project metadata and dependencies
-├── package-lock.json # Dependency version lock
-└── README.md # Project documentation
+backend-form/
+│
+├── index.html          # Your form frontend (HTML page)
+├── style.css           # Your form styling (optional)
+├── script.js           # Your frontend JS (optional)
+│
+├── server.js           # Main backend server file (Node.js + Express)
+├── package.json        # Project info + dependencies
+│
+├── .env                # Environment variables (like PORT, DB URL)
+│
+└── node_modules/       # Installed dependencies (auto-created)
 
 
 ---
 
 ## 🛠️ Setup Instructions
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/aerakim75/BACKEND-FORM.git
-cd BACKEND-FORM
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd lec10airbnb
+   ```
 
-### 2. Install Dependencies
-```bash
-npm install
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### 3. Configure Environment Variables
-Create a .env file in the root directory and add:
-PORT=3000
-
-### 4.Start the development server
+3. **Start the development server**
    ```bash
    npm start
    ```
+
+4. **Access the application**
+   - Open your browser and navigate to `http://localhost:3000`
+
+### ENROLLMENT ID-
+   1401/INFI25/029
+
 
