@@ -41,8 +41,7 @@ backend-form/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd lec10airbnb
+   https://github.com/aerakim75/Back-end-Form.git
    ```
 
 2. **Install dependencies**
