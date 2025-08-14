@@ -42,15 +42,15 @@ BACKEND-FORM/
 git clone https://github.com/aerakim75/BACKEND-FORM.git
 cd BACKEND-FORM
 
-**### 2. Install Dependencies**
+### 2. Install Dependencies
 ```bash
 npm install
 
-**### 3. Configure Environment Variables**
+### 3. Configure Environment Variables
 Create a .env file in the root directory and add:
 PORT=3000
 
-**### 4.Start the development server**
+### 4.Start the development server
    ```bash
    npm start
    ```
