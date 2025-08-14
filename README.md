@@ -21,18 +21,22 @@ A full-stack web application that allows users to submit form data through a cle
 ---
 
 ## 📁 Project Structure
+
 backend-form/
-│
-├── index.html          # Your form frontend (HTML page)
-├── style.css           # Your form styling (optional)
-├── script.js           # Your frontend JS (optional)
-│
-├── server.js           # Main backend server file (Node.js + Express)
-├── package.json        # Project info + dependencies
-│
-├── .env                # Environment variables (like PORT, DB URL)
-│
-└── node_modules/       # Installed dependencies (auto-created)
+ 
+|---- index.html          # Your form frontend (HTML page)
+ 
+|---- style.css           # Your form styling (optional)
+ 
+|---- script.js           # Your frontend JS (optional)
+
+|---- server.js           # Main backend server file (Node.js + Express)
+ 
+|---- package.json        # Project info + dependencies
+
+|----.env                # Environment variables (like PORT, DB URL)
+
+|---- node_modules/       # Installed dependencies (auto-created)
 
 
 ---
